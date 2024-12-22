@@ -11,4 +11,11 @@ describe("Greet", () => {
     expect(heading).toBeInTheDocument();
     expect(heading).toHaveTextContent(/dema/i);
   });
+  it("Is should render Login with provided name", () => {
+    render(<Greet name="" />);
+
+    const button = screen.getByRole("button");
+    expect(button).toBeInTheDocument();
+    expect(button).toHaveTextContent(/login/i);
+  });
 });
