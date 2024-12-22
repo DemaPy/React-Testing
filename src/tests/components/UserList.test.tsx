@@ -14,7 +14,7 @@ const users = [
   },
 ];
 
-describe("Greet", () => {
+describe("UserList", () => {
   it("Should render no users when array is empty.", () => {
     render(<UserList users={[]} />);
 

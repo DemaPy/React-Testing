@@ -2,7 +2,7 @@ import { render, screen } from "@testing-library/react";
 import TermsAndConditions from "../../components/TermsAndConditions";
 import userEvent from "@testing-library/user-event";
 
-describe("Greet", () => {
+describe("TermsAndConditions", () => {
   it("Should render with correct text and state", () => {
     render(<TermsAndConditions />);
 

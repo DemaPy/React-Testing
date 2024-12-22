@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import ProductImageGallery from "../../components/ProductImageGallery";
 
-describe("Greet", () => {
+describe("ProductImageGallery", () => {
   it("Is should render nothing with empty array", () => {
     const { container } = render(<ProductImageGallery imageUrls={[]} />);
     expect(container.firstChild).toBeNull();
